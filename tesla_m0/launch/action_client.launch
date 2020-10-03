@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="tesla_m0"
+  name="move_to_gps_waypoint_aclient"
+  type="action_client.py"
+  output="screen"/>
+</launch>
